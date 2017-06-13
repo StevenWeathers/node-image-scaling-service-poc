@@ -1,0 +1,31 @@
+{
+  "name": "falkor",
+  "version": "1.0.0",
+  "description": "Image Processing Service",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install",
+    "start": "node index.js",
+    "test": "lab",
+    "coverage": "lab -r html -o coverage.html & open coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "async": "1.5.0",
+    "wreck": "12.2.2",
+    "glue": "2.4.0",
+    "hapi": "11.1.0",
+    "joi": "7.0.0",
+    "lodash": "3.10.1",
+    "sharp": "^0.16.0"
+  },
+  "devDependencies": {
+    "code": "2.0.1",
+    "lab": "7.3.0",
+    "nock": "3.1.0",
+    "sinon": "1.17.2"
+  }
+}
